@@ -1,6 +1,6 @@
 ---
 - name: uri module demo
-  hosts: all
+  hosts: 192.168.141.163
   become: false
   vars:
     server: "https://reqres.in"
